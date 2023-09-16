@@ -15,34 +15,38 @@
     <header class="header">  </header>
     <main class="main">
       <div class="wrapper">
-        <input type="radio" name="point" id="slide1">
-        <input type="radio" name="point" id="slide2">
-        <input type="radio" name="point" id="slide3" checked>
-        <input type="radio" name="point" id="slide4">
+        <input id="slide1" type="radio" name="point">
+        <input id="slide2" type="radio" name="point" checked>
+        <input id="slide3" type="radio" name="point">
+        <input id="slide4" type="radio" name="point">
         <div class="slider_wrapper">
-          <div class="sslide1 s1"></div>
-          <div class="sslide2"></div>
-          <div class="sslide3"></div>
-          <div class="sslide4"></div>
+            <div class="slide_1"><img src="./assets/mem1.jpg"></div> 
+            <div class="slide_10"><img src="./assets/mem10.jpg"></div> 
+            <div class="slide_11"><img src="./assets/mem11.jpg"></div> 
+            <div class="slide_100"><img src="./assets/mem100.jpg"></div>   
         </div>
-        <div class="text_nav_wrapper">
-          <div class="text">text</div>
-          <div class="navigation">
-            <label for="slide1" class="btn_slide"></label>
-            <label for="slide2" class="btn_slide"></label>
-            <label for="slide3" class="btn_slide"></label>
-            <label for="slide4" class="btn_slide"></label>
-          </div>
 
+        <div class="text_nav_wrapper">
+          <div class="text">
+          <div class="text_meme">Meme #1</div>
+          <div class="text_meme">Meme #2</div>
+          <div class="text_meme">Meme #3</div>
+          <div class="text_meme">Meme #4</div>
+        </div>
+          <div class="navigation">
+            <label class="field_click" for="slide1"><div class="slide_point point1"></div></label>
+            <label class="field_click" for="slide2"><div class="slide_point point2"></div></label>
+            <label class="field_click" for="slide3"><div class="slide_point point3"></div></label>
+            <label class="field_click" for="slide4"><div class="slide_point point4"></div></label>
+          </div>
         </div>
       </div>
     </main>
 
 
+
+
   
-
-
-
     <footer class="footer"></footer>
 
     <script src="./grade.js"></script>
