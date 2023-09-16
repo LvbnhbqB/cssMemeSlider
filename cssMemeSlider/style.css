@@ -42,9 +42,9 @@
 }
 
 .text {
-  width: 300px;
+  width: 350px;
   height: 40px;
-  background-color: aqua;
+  /*background-color: aqua; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -52,8 +52,37 @@
 }
 
 .text_meme {
-  width: 300px;
+  min-width: 350px;
+  color: #fff;
 }
+
+#slide1:checked ~ .text_nav_wrapper .meme1 {
+  margin-left: 0;
+  transition: all 0.6s ease;
+}
+
+#slide2:checked ~ .text_nav_wrapper .meme1 {
+  margin-left: -100%;
+  transition: all 0.6s ease;
+}
+
+#slide3:checked ~ .text_nav_wrapper .meme1 {
+  margin-left: -200%;
+  transition: all 0.6s ease;
+}
+
+#slide4:checked ~ .text_nav_wrapper .meme1 {
+  margin-left: -300%;
+  transition: all 0.6s ease;
+}
+
+
+
+
+
+
+
+
 
 
 /* Radio-button start */
@@ -65,7 +94,7 @@ input {
 .navigation {
   display: flex;
   max-width: 12.5rem;
-  height: 2.5;
+  height: 2.5rem;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
@@ -122,7 +151,7 @@ input {
 /* Radio-button end */
 
 
-
+/*slider start */
 #slide1:checked ~ .slider_wrapper .slide_1 {
   margin-left: 0;
   transition: all 0.6s ease;
@@ -143,6 +172,6 @@ input {
   transition: all 0.6s ease;
 }
 
-
+/*slider end */
 
 
