@@ -26,10 +26,10 @@ body {
 .slider_wrapper {
   width: 48vw;
   height: auto;
-  background-color: lightblue;
   margin-bottom: 0.938rem;
   display: flex;
   overflow: hidden;
+  border-radius: 1rem;
 }
 
 .img_meme {
