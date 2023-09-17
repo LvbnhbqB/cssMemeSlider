@@ -3,7 +3,7 @@
 [https://lvbnhbqb.github.io/cssMemeSlider/cssMemeSlider/index.html](https://lvbnhbqb.github.io/cssMemeSlider/cssMemeSlider/index.html)
 
 Desktop: 1920x1080<br>
-Mobile: 390x844
+Mobile: 390x844 <br>
 Работу оценил 150/15 <br>
 -Выполнено всё из секции Требования к репозиторию и как сабмитить задание +30<br>
 -Слайдер позиционируется с равными отступами слева и справа +10<br>
