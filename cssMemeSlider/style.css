@@ -112,6 +112,10 @@ input {
   background-color: #fff;
 }
 
+.slide_point:active {
+  background-color: #585858;
+}
+
 .field_click {
   cursor: pointer;
 }
